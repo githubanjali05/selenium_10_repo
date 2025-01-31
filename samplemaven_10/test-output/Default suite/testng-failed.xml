@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qspiders.laptop.TC_DWS_100_Laptop">
+        <methods>
+          <include name="reportBackup"/>
+          <include name="addToCart"/>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="configReport"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.qspiders.laptop.TC_DWS_100_Laptop -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
